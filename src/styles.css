@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+
+.navbar a {
+    color: #ffffff;
+}
+.navbar a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.footer {
+    color: #000;
+}
+.bg-green {
+    background-color: #198754;
+}

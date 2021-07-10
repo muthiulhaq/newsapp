@@ -1,0 +1,12 @@
+.brand-left {
+    color: #ffffff;
+    font-weight: bold;
+}
+.brand-right {
+    color: #cccccc;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.nav-link {
+    cursor: pointer !important;
+}
