@@ -10,3 +10,7 @@
 .nav-link {
     cursor: pointer !important;
 }
+a.contact-btn:hover {
+    color: #000 !important;
+    text-decoration: underline !important;
+}

@@ -1,9 +1,13 @@
 
 .navbar a {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 .navbar a:hover {
     color: #ffffff;
+    text-decoration: underline;
+}
+.navbar a.active {
+    color: #ffffff !important;
     text-decoration: underline;
 }
 .footer {

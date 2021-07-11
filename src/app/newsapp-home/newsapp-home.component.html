@@ -4,13 +4,12 @@
             <div class="item-wrapper">
                 <div class="card" style="background-image: url('{{newsItem.urlToImage}}');">
                     <div class="card-body card-body-up">
-                        <span class="badge bg-success">{{newsItem.publishedAt | date }}</span>
-                        <a href="{{newsItem.url}}" target="_blank" class="news-title-link">
+                            <span class="badge bg-success white-outline">{{newsItem.publishedAt | date }}</span>
                             <h5 class="card-title pt-3">{{newsItem.title}}</h5>
-                        </a>
+                            <p class="card-text">{{newsItem.description}}</p>
                     </div>
-                    <div class="card-body">
-                        <a href="{{newsItem.url}}" target="_blank" class="card-link badge bg-light text-dark">Read More.</a>
+                    <div class="card-body card-body-down">
+                        <a href="{{newsItem.url}}" target="_blank" class="card-link badge bg-light text-dark read-more-link">Read More.</a>
                     </div>
                 </div>
             </div>
